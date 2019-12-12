@@ -1,0 +1,34 @@
+<idea-plugin>
+    <id>de.regensburger-forscher.oop</id>
+    <name>PluginHelperDemo</name>
+    <version>1.0</version>
+    <vendor email="alexander.bazo@ur.de" url="https://oop.regensburger-forscher.de">Regensburger Forscher</vendor>
+
+    <description>A demo implementation for the PluginHelper core library</description>
+
+    <change-notes>Multiple changes during live development</change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+    <project-components>
+        <component>
+            <implementation-class>Main</implementation-class>
+        </component>
+    </project-components>
+
+</idea-plugin>
